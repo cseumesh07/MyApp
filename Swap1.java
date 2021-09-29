@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Swap1{
+	public static void main(String[] args){
+		Scanner scanner=new Scanner(System.in);
+		int a,b,swap;
+		System.out.println("Enter the value of a and b: ");
+		a=scanner.nextInt();
+		b=scanner.nextInt();		
+		System.out.println("Before Swaping:" +a+" "+b);
+		swap=a;
+		a=b;
+		b=swap;
+		System.out.println("After Swaping:"+a+" "+b);
+	}
+}
